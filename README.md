@@ -30,7 +30,8 @@ disclaimer: the BookedScheduler application is developed by effgarces (https://g
 
     sudo apt-get install apache2 apache2-bin apache2-data libaio1 libapache2-mod-php7.4 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libhtml-template-perl libmysqlclient20 libterm-readkey-perl libwrap0 ssl-cert tcpd mariadb-server php7.4 php7.4-cli php7.4-common php7.4-json php7.4-mysql php7.4-readline -y
 
-    start the services 
+>start the services 
+    
     sudo systemctl start apache2
     sudo systemctl enable apache2
     sudo systemctl start mysql
@@ -118,7 +119,7 @@ you would need to edit the "create-data.sql" script, there is an error in the sc
 
 >open editor to edit "create-data.sql" 
 
-    sudo ano database_schema/create-data.sql
+    sudo nano database_schema/create-data.sql
 >change 
 
     insert into `layouts` values (1, 'America/New_York', 0);
