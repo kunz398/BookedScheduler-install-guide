@@ -12,6 +12,7 @@ disclaimer: the BookedScheduler application is developed by effgarces (https://g
 > -add repo
 
     sudo add-apt-repository ppa:ondrej/php
+    sudo apt-get update
    
 
 >     install 7.4 php
