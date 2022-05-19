@@ -146,9 +146,11 @@ next enter the database information username=booked , password=password , databa
 >follow the instruction in the portal and installation should be successful 
 
 
-other settings
-to enable image upload install this libraries 
-sudo apt-get install php7.4-gd
-sudo apt-get install php7.4-zip
 
-
+> other settings
+> to enable image upload install this libraries
+>
+    sudo apt-get install php7.4-gd
+    sudo apt-get install php7.4-zip
+    sudo systemctl restart apache2
+   
