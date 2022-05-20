@@ -149,7 +149,9 @@ next enter the database information username=booked , password=password , databa
 
 > other settings
 > to enable image upload install this libraries
->
+
+    add-apt-repository ppa:jczaplicki/xenial-php74-temp
+    apt-get update
     sudo apt-get install php7.4-gd
     sudo apt-get install php7.4-zip
     sudo systemctl restart apache2
